@@ -1,0 +1,6 @@
+f = open('response.txt', 'w')
+f.write("open")
+f.close()
+f = open('response.txt', 'r')
+print(f.read())
+f.close()
